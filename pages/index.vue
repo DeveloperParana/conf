@@ -37,7 +37,7 @@ export default {
   //  schedule,
    // buytickets,
     speakers,
-    tickets,
+   // tickets,
     location,
     contact,
     sponsors,

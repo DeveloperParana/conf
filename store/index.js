@@ -163,11 +163,11 @@ de dados públicas em formatos acessíveis.`
   ],
   tickets: [{
     id: 1,
-    value: 40,
+    value: '40',
     title: 'Lote Promocional',
-    date: '05 de Maio até esgotar',
+    date: 'Em breve',
     link: 'https://www.sympla.com.br/devparana-conference-2018__281357',
-    soldout: false
+    soldout: true
   }],
   sponsors: [
     {

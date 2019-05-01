@@ -32,8 +32,12 @@
               <span></span>
             </div>
 
-            <div class="soldout-span" v-if="ticket.soldout">
+            <div class="soldout-span" v-if="ticket.soldout && ticket.available">
               <div class="span">ESGOTADO</div>
+            </div>
+
+            <div class="soldout-span" v-if="!ticket.available">
+              <div class="span">EM BREVE</div>
             </div>
 
             <div class="tickets-title text-align-center">{{ticket.title}}</div>

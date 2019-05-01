@@ -1,4 +1,4 @@
-git@github.com:DeveloperParana/conf.gitgit@github.com:DeveloperParana/conf.git<template lang="html">
+<template lang="html">
   <div>
     <socialFixed/>
     <headerTop/>

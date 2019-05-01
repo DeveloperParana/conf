@@ -1,4 +1,4 @@
-<template lang="html">
+git@github.com:DeveloperParana/conf.gitgit@github.com:DeveloperParana/conf.git<template lang="html">
   <div>
     <socialFixed/>
     <headerTop/>
@@ -37,7 +37,7 @@ export default {
   //  schedule,
    // buytickets,
     speakers,
-   // tickets,
+    tickets,
     location,
     contact,
     sponsors,

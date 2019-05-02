@@ -13,7 +13,7 @@ export const state = () => ({
     name: 'Daine Santos',
     image: 'daiane',
     role: ' Oktagon Games, Londrina/PR - Brasil',
-    description: ' Community Manager, QA, Infosec Enthusiast, LGPD - GDPR',
+    description: 'Graduanda em Engenharia da Computação pela UTFPR, Community Manager e QA na Oktagon Games, entusiasta de Segurança da Informação e CTF Player pela RATF',
     twitter: 'https://twitter.com/wh0isdxk',
     linkedin: 'https://www.linkedin.com/in/daianemsantos/'
   },

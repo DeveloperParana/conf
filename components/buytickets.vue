@@ -5,7 +5,7 @@
           <h3>Comprar Ticket</h3>
         </div>
         <div class="buy-tickets--button">
-          <a target="_blank" href="http://bit.ly/2jttFlx" class="btn btn-lg btn-primary"><i class="fas fa-arrow-right"></i></a>
+          <a target="_blank" href="" class="btn btn-lg btn-primary"><i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
   </div>

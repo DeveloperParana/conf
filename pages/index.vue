@@ -4,8 +4,8 @@
     <headerTop/>
     <call4papers />
     <speakers />
-    <buytickets />
-    <schedule />
+    <!-- <buytickets /> -->
+    <!-- <schedule /> -->
     <tickets />
     <location />
     <contact />
@@ -34,8 +34,8 @@ export default {
     socialFixed,
     headerTop,
     call4papers,
-  //  schedule,
-   // buytickets,
+    schedule,
+    buytickets,
     speakers,
     tickets,
     location,

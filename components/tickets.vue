@@ -60,7 +60,7 @@
                 <a
                   :href="ticket.link"
                   class="btn btn-primary btn-full"
-                  v-disabled="!ticket.soldout"
+                  :disabled="!ticket.soldout"
                 >Comprar tickets</a>
               </div>
             </div>

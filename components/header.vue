@@ -47,7 +47,7 @@
           </div>
 
           <countdown :time="time" :interval="100">
-            <template slot-scope="props">
+            <div slot-scope="props">
               <div class="header--block--days container wrap">
                 <div class="box-data box-1 container column align-center">
                   <span class="font-strong">{{ props.days }}</span>
@@ -66,7 +66,7 @@
                   <span class="span-uppercase">SEGS</span>
                 </div>
               </div>
-            </template>
+            </div>
           </countdown>
         </div>
 

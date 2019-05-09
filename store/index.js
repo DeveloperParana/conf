@@ -53,7 +53,35 @@ export const state = () => ({
     link: 'https://www.sympla.com.br/devparana-conference-2018__281357',
     soldout: true,
     available: false
-  }],
+  },
+  {
+    id: 2,
+    value: '',
+    title: 'Primeiro Lote',
+    date: 'Em breve',
+    link: '',
+    soldout: true,
+    available: false
+  },
+  {
+    id: 3,
+    value: '',
+    title: 'Segundo Lote',
+    date: 'Em breve',
+    link: '',
+    soldout: true,
+    available: false
+  },
+  {
+    id: 4,
+    value: '',
+    title: 'Terceiro Lote',
+    date: 'Em breve',
+    link: '',
+    soldout: true,
+    available: false
+  }
+],
   sponsors: [
     {
       id: 2,

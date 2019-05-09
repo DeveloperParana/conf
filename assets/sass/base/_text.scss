@@ -47,13 +47,22 @@ h6 {
   text-transform: uppercase;
   margin-bottom: 100px;
 
+  p {
+    text-transform: none;
+  }
+
   h2 span {
     display: block;
   }
 
   @media (max-width: 768px) {
     h2 {
-      font-size: 10vw;
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 576px) {
+    h2 {
+      font-size: 30px;
     }
   }
 }
@@ -64,10 +73,6 @@ h6 {
 
 h2 span {
   display: block;
-
-  @media screen and (max-width: 720px) {
-    font-size: 7vw;
-  }
 }
 
 .font-strong {

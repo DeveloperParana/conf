@@ -5,7 +5,7 @@
         <menuFixed />
 
         <div class="size margin">
-          <div class="header--block container align-center">
+          <div class="header--block container">
 
             <div class="header--block--intro container wrap">
               <div class="header--block--text">
@@ -38,7 +38,8 @@
 
                 <div class="box-data container column">
                   <router-link to="#tickets" class="btn btn-lg btn-primary btn-fit">
-                    Comprar tickets
+                     <span>Comprar</span>
+                     <span class="hidden">tickets</span>
                   </router-link>
                 </div>
               </div>
@@ -94,7 +95,8 @@ export default {
 
 <style lang="scss" scoped>
 .bg-header {
-  background: url("~/assets/images/header.svg"), url("~/assets/images/header-bg.svg");
+  background: url("~/assets/images/header.svg"),
+    url("~/assets/images/header-bg.svg");
   background-position: 90% 100%, top center;
   background-size: 600px, contain;
   background-repeat: no-repeat;
@@ -191,6 +193,10 @@ export default {
   span {
     display: block;
   }
+
+  @media (max-width: 768px) {
+    margin-top: 46px;
+  }
 }
 
 .header--block--date {
@@ -226,6 +232,22 @@ export default {
   .header--block--text,
   .header--block--date {
     width: 100%;
+  }
+}
+
+.btn-lg {
+  .hidden {
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn-lg {
+    // font-size: 14px;
+    // padding: 15px 20px;
+    .hidden {
+      display: none;
+    }
   }
 }
 </style>

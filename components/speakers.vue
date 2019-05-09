@@ -26,8 +26,6 @@
               </div>
               <div class="speakers--item--content--info">
                 <span class="content--info-title">{{speaker.name}}</span>
-                <span>{{speaker.role}}</span>
-                <span>{{speaker.description}}</span>
                 <ul class="list-style-none content--info-social container align-items-center">
                   <li v-if="speaker.linkedin">
                     <a v-bind:href="speaker.linkedin" target="_blank">
@@ -55,6 +53,8 @@
                     </a>
                   </li>
                 </ul>
+                <span>{{speaker.role}}</span>
+                <span>{{speaker.description}}</span>
               </div>
             </div>
           </div>

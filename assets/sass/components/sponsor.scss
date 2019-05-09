@@ -10,10 +10,8 @@
 
 .support--title {
   color: $color-4;
-  font-size: 40px;
   text-transform: uppercase;
   text-align: left;
-  margin-bottom: 60px;
 }
 
 .support--type {
@@ -26,6 +24,11 @@
 .support--list {
   display: flex;
   overflow-x: auto;
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $color-1;
+    border: 2px solid $color-1;
+  }
 }
 
 .support--item {

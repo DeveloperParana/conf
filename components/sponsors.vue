@@ -2,7 +2,10 @@
   <div class="support size margin">
     <div class="support--block justify-content-center container column" id="sponsors">
       <div class>
-        <h2 class="support--title flex-grow-1">Patrocinadores</h2>
+        <h2 class="support--title flex-grow-1"></h2>
+        <div class="box-title">
+          <h2 class="support--title flex-grow-1">Patrocinadores</h2>
+        </div>
         <h3 class="support--type flex-grow-1">Diamond</h3>
         <ul class="support--list list-style-none">
           <li class="support--item" v-for="sponsor in getSponsorByType('diamond')" :key="sponsor.id">
@@ -30,7 +33,9 @@
 
     <div class="support--block justify-content-center container column" id="support">
       <div class>
-        <h2 class="support--title flex-grow-1" v-if="support.lenght">Apoio</h2>
+        <div class="box-title">
+          <h2 class="support--title flex-grow-1" v-if="support.lenght">Apoio</h2>
+        </div>
 
         <ul class="support--list list-style-none">
           <li class="support--item" v-for="supporter in support" :key="supporter.id">

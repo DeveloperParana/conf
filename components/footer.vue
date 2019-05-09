@@ -34,9 +34,6 @@ export default {};
 .footer {
   padding: 100px 50px;
   width: 100%;
-  @media screen and (max-width: 980px) {
-    background: $color-1;
-  }
   .box--footer {
     padding: 20px;
     box-sizing: border-box;

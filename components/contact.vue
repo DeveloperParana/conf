@@ -112,13 +112,15 @@
 
         <div class="contact--text flex-basis-400 flex-grow-2 container align-center">
           <div class="">
-            <h2>
-              <span>ENVIE</span>
-              <span>SUAS</span>
-              <span>DÚVIDAS</span>
-            </h2>
+            <div class="box-title">
+              <h2>
+                <span>ENVIE</span>
+                <span>SUAS</span>
+                <span>DÚVIDAS</span>
+              </h2>
             <p>Entre em contato conosco que lhe
               <br> responderemos o mais rápido possível.</p>
+            </div>
           </div>
         </div>
 
@@ -232,10 +234,15 @@ export default {
   }
   @media (max-width: 768px) {
     .contact--text {
+      padding: 0 0 32px;
       background: none;
       > div {
         transform: translateY(0);
+        width: 100%;
       }
+    }
+    .container--form-block {
+      padding: 0;
     }
   }
 }

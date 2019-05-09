@@ -36,10 +36,15 @@
   overflow-x: hidden;
   overflow-y: auto;
   padding: 20px;
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $color-3;
+    border-color: $color-1;
+  }
 }
 
 .content--info-title {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   display: block;
   color: $color-4;
   font-weight: bold;
@@ -47,7 +52,7 @@
 }
 
 .content--info-social {
-  margin-top: 20px;
+  margin-bottom: 16px;
 
   li {
     margin-right: 16px;
@@ -64,8 +69,30 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .speakers--item {
     width: 100%;
+  }
+}
+
+$img-size: 64px;
+
+@media (max-width: 576px) {
+  .speakers--item--content--image {
+    transform: translate(-10px, -10px);
+    width: $img-size;
+    min-width: $img-size;
+    height: $img-size;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid $color-white;
+
+    img {
+      width: $img-size;
+      height: $img-size;
+    }
+  }
+  .speakers--item--content--info {
+    padding-left: 0;
   }
 }

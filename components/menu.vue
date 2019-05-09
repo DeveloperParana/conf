@@ -6,7 +6,7 @@
 
           <div class="menu--content--logo flex-grow-1">
             <router-link to="#home">
-              <img src="~/assets/images/logo.svg" width="100%" alt="Logo DevParaná 2019">
+              <img src="~/assets/images/logo-full.svg" width="100%" alt="Logo DevParaná 2019">
             </router-link>
           </div>
 
@@ -123,7 +123,7 @@ $size-menu: 60px;
     // padding-top: 40px;
     .menu--content--logo {
       img {
-        width: 90px;
+        width: 160px;
         max-width: 100%;
       }
     }
@@ -153,7 +153,7 @@ $size-menu: 60px;
       .menu--content--logo {
         img {
           display: block;
-          width: 50px;
+          width: 100px;
         }
       }
     }

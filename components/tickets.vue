@@ -117,7 +117,7 @@ import { mapState } from "vuex";
 export default {
   data() {
     return {
-      currentticket: 2,
+      currentticket: 0,
       tshirtSize: "6C0760762727348CC4D39F8A7A077AB6"
     };
   },

@@ -78,10 +78,14 @@
   background-size: 100%;
 
   .tickets--item {
-    padding: 20px;
+    padding: 16px;
     box-sizing: border-box;
     text-align: center;
     position: relative;
+
+    @media (max-width: 768px) {
+      padding: 0;
+    }
   }
 }
 

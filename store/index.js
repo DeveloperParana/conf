@@ -45,43 +45,62 @@ export const state = () => ({
       description: 'Café da manhã  / Credenciamento / Networking'
     } */
   ],
-  tickets: [{
-    id: 1,
-    value: '',
-    title: 'Lote Promocional',
-    date: 'Em breve',
-    link: 'https://www.sympla.com.br/devparana-conference-2018__281357',
-    soldout: true,
-    available: false
-  },
-  {
-    id: 2,
-    value: '',
-    title: 'Primeiro Lote',
-    date: 'Em breve',
-    link: '',
-    soldout: true,
-    available: false
-  },
-  {
-    id: 3,
-    value: '',
-    title: 'Segundo Lote',
-    date: 'Em breve',
-    link: '',
-    soldout: true,
-    available: false
-  },
-  {
-    id: 4,
-    value: '',
-    title: 'Terceiro Lote',
-    date: 'Em breve',
-    link: '',
-    soldout: true,
-    available: false
-  }
-],
+  tickets: [
+    {
+      id: 1,
+      value: '50,00',
+      title: 'Primeiro Lote - Promocional',
+      date: 'Até 31/05',
+      link: 'https://www.sympla.com.br/devparana-conference-2019__520952',
+      soldout: false,
+      available: true
+    },
+    {
+      id: 2,
+      value: '100,00',
+      title: 'Primeiro Lote',
+      date: 'Até 31/05',
+      link: 'https://www.sympla.com.br/devparana-conference-2019__520952',
+      soldout: false,
+      available: true
+    },
+    {
+      id: 3,
+      value: '65,00',
+      title: 'Segundo Lote - Promocional',
+      date: 'Até 30/06',
+      link: 'https://www.sympla.com.br/devparana-conference-2019__520952',
+      soldout: false,
+      available: false
+    },
+    {
+      id: 4,
+      value: '130,00',
+      title: 'Segundo Lote',
+      date: 'Até 30/06',
+      link: 'https://www.sympla.com.br/devparana-conference-2019__520952',
+      soldout: false,
+      available: false
+    },
+    {
+      id: 5,
+      value: '80,00',
+      title: 'Terceiro Lote - Promocional',
+      date: 'Até 31/07',
+      link: 'https://www.sympla.com.br/devparana-conference-2019__520952',
+      soldout: false,
+      available: false
+    },
+    {
+      id: 6,
+      value: '160,00',
+      title: 'Terceiro Lote',
+      date: 'Até 31/07',
+      link: 'https://www.sympla.com.br/devparana-conference-2019__520952',
+      soldout: false,
+      available: false
+    }
+  ],
   sponsors: [
     {
       id: 2,

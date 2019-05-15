@@ -115,6 +115,13 @@ export const state = () => ({
       address: 'https://www.elotech.com.br/',
       image: 'elotech',
       type: 'diamond'
+    },
+    {
+      id: 4,
+      name: 'DB1',
+      address: 'https://www.db1.com.br',
+      image: 'db1',
+      type: 'silver'
     }
   ],
   support: [

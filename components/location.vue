@@ -12,7 +12,7 @@
         <div class="header--block--date container column">
           <div class="box-data container column margin-bottom-40">
             <span class="span-uppercase">Localização</span>
-            <span class="font-span">Auditório Dona Guilhermina, Bloco 7 Unicesumar - Maringá PR</span>
+            <span class="font-span">Auditório Dona Etelvina, Bloco 7 Unicesumar - Maringá PR</span>
           </div>
 
           <div class="box-data container column margin-bottom-40">

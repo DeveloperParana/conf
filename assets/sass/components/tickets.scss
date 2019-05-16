@@ -133,8 +133,29 @@
   }
 }
 
+.ticket-5 .tickets--item--content {
+  background: $color-2;
+  background-image: url("~/assets/images/ticket-5.svg");
+  background-position: center center;
+  background-size: cover;
+
+  &:hover {
+    background-color: $color-1;
+  }
+}
+
+.ticket-6 .tickets--item--content {
+  background: $color-2;
+  background-image: url("~/assets/images/ticket-6.svg");
+  background-position: center center;
+  background-size: cover;
+
+  &:hover {
+    background-color: $color-1;
+  }
+}
+
 .tickets--item--content {
-  cursor: pointer;
   background-color: $color-1;
   transition: 0.3s;
   margin-bottom: 50px;

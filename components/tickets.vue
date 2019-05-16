@@ -58,9 +58,10 @@
               </div>
               <div class="tickets-btn">
                 <a
+                  target="_blank"
                   :href="ticket.link"
                   class="btn btn-primary btn-full"
-                  :disabled="!ticket.soldout"
+                  :disabled="ticket.soldout || !ticket.available"
                 >Comprar tickets</a>
               </div>
             </div>

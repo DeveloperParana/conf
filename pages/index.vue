@@ -2,6 +2,7 @@
   <div>
     <socialFixed/>
     <headerTop/>
+    <videoYoutube/>
     <call4papers />
     <speakers />
     <!-- <buytickets /> -->
@@ -19,6 +20,7 @@
 <script>
 import socialFixed from "@/components/social-fixed";
 import headerTop from "@/components/header";
+import videoYoutube from "@/components/video";
 import schedule from "@/components/schedule";
 import buytickets from "@/components/buytickets";
 import call4papers from "@/components/call4papers";
@@ -33,6 +35,7 @@ export default {
   components: {
     socialFixed,
     headerTop,
+    videoYoutube,
     call4papers,
     schedule,
     buytickets,

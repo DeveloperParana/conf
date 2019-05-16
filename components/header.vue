@@ -9,11 +9,14 @@
 
             <div class="header--block--intro container wrap">
               <div class="header--block--text">
-                <h1 class="intro-text">
+                <!-- <h1 class="intro-text">
                   <span>Dev</span>
                   <span>Paraná</span>
                   <span>Conf 2019</span>
-                </h1>
+                </h1> -->
+                <div class="logo">
+                  <img src="~/assets/images/logo-full.svg" width="100%" alt="Logo DevParaná 2019">
+                </div>
                 <div class="intro-message margin-top-40">
                   <div>
                     De <span>pessoas</span>
@@ -117,6 +120,10 @@ export default {
   padding: 40px 0;
 }
 
+.logo {
+  margin-bottom: 64px;
+}
+
 .header--block--days {
   height: 200px;
 
@@ -181,7 +188,7 @@ export default {
 
 .header--block--intro {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   margin: -40px;
 
   > div {

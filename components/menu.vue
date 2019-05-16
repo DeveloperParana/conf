@@ -123,8 +123,10 @@ $size-menu: 60px;
     // padding-top: 40px;
     .menu--content--logo {
       img {
-        width: 160px;
-        max-width: 100%;
+        transition: 0.3s;
+        visibility: hidden;
+        opacity: 0;
+        width: 100px;
       }
     }
 
@@ -153,7 +155,8 @@ $size-menu: 60px;
       .menu--content--logo {
         img {
           display: block;
-          width: 100px;
+          visibility: visible;
+          opacity: 1;
         }
       }
     }

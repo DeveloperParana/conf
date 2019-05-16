@@ -17,6 +17,7 @@
   transition: 0.2s;
   font-family: inherit;
   text-transform: uppercase;
+  user-select: none;
 
   a {
     text-decoration: none;
@@ -55,6 +56,7 @@
       background: darken($color-1, 10);
     }
   }
+
   &.btn-secundary {
     background: $color-4;
     color: $color-white;
@@ -109,6 +111,7 @@
     opacity: 0.5;
     background: $color-grey;
     color: $color-4;
+    pointer-events: none;
 
     &:hover {
       filter: none;

@@ -48,7 +48,7 @@ export const state = () => ({
   tickets: [
     {
       id: 1,
-      value: '50,00',
+      value: '50,00 + 1Kg de alimento',
       title: 'Primeiro Lote - Promocional',
       date: 'Até 31/05',
       link: 'https://www.sympla.com.br/devparana-conference-2019__520952',
@@ -66,7 +66,7 @@ export const state = () => ({
     },
     {
       id: 3,
-      value: '65,00',
+      value: '65,00 + 1Kg de alimento',
       title: 'Segundo Lote - Promocional',
       date: 'Até 30/06',
       link: 'https://www.sympla.com.br/devparana-conference-2019__520952',
@@ -75,7 +75,7 @@ export const state = () => ({
     },
     {
       id: 4,
-      value: '130,00',
+      value: '130,00 + 1Kg de alimento',
       title: 'Segundo Lote',
       date: 'Até 30/06',
       link: 'https://www.sympla.com.br/devparana-conference-2019__520952',
@@ -84,7 +84,7 @@ export const state = () => ({
     },
     {
       id: 5,
-      value: '80,00',
+      value: '80,00 + 1Kg de alimento',
       title: 'Terceiro Lote - Promocional',
       date: 'Até 31/07',
       link: 'https://www.sympla.com.br/devparana-conference-2019__520952',

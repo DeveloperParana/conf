@@ -49,7 +49,7 @@
             </div>
           </div>
 
-          <countdown :time="time" :interval="100">
+          <countdown :time="time" :interval="1000">
             <div slot-scope="props">
               <div class="header--block--days container wrap">
                 <div class="box-data box-1 container column align-center">
@@ -103,7 +103,6 @@ export default {
   background-position: 90% 100%, top center;
   background-size: 600px, contain;
   background-repeat: no-repeat;
-  transition: 0.3s;
   @media (max-width: 768px) {
     background-position: 40vw 50%, top left;
     background-size: 100vw, 800px;
@@ -121,7 +120,9 @@ export default {
 }
 
 .logo {
-  margin-bottom: 64px;
+  width: 90%;
+  max-width: 400px;
+  margin-bottom: 100px;
 }
 
 .header--block--days {
@@ -176,12 +177,24 @@ export default {
     }
   }
   @media (max-width: 768px) {
-    height: 100px;
+    height: 300px;
     .span-uppercase {
       font-size: 12px;
     }
     .box-data {
-      font-size: 24px;
+      width: 50%;
+      border: 2px solid $color-4;
+    }
+  }
+  @media (max-width: 576px) {
+    // height: auto;
+    .span-uppercase {
+      font-size: 12px;
+    }
+    .box-data {
+      font-size: 34px;
+      // width: 100%;
+      // height: 200px;
     }
   }
 }
@@ -189,11 +202,8 @@ export default {
 .header--block--intro {
   display: flex;
   align-items: center;
-  margin: -40px;
-
-  > div {
-    padding: 40px;
-  }
+  width: 1200px;
+  max-width: 100%;
 }
 
 .intro-text {
@@ -250,8 +260,6 @@ export default {
 
 @media (max-width: 576px) {
   .btn-lg {
-    // font-size: 14px;
-    // padding: 15px 20px;
     .hidden {
       display: none;
     }

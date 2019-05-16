@@ -61,8 +61,8 @@ export default {};
     height: 40px;
     font-size: 20px;
     background: transparent;
-    border: 1px solid $color-4;
-    color: $color-4;
+    border: 1px solid $color-1;
+    color: $color-1;
     border-radius: 50%;
     margin-right: 10px;
     display: flex;
@@ -70,8 +70,8 @@ export default {};
     align-items: center;
     transition: 0.3s;
     &:hover {
-      background: $color-4;
-      color: $color-1;
+      background: $color-1;
+      color: $color-white;
     }
   }
 }

@@ -53,7 +53,7 @@
                     </a>
                   </li>
                 </ul>
-                <span>{{speaker.role}}</span>
+                <span class="role">{{speaker.role}}</span>
                 <span>{{speaker.description}}</span>
               </div>
             </div>

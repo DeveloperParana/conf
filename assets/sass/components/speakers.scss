@@ -5,6 +5,15 @@
   background-size: 100%;
 }
 
+.role {
+  background: $color-3;
+  padding: 4px;
+  display: block;
+  color: $color-white;
+  width: fit-content;
+  margin-bottom: 8px;
+}
+
 .speakers-container {
   margin: -40px;
 }

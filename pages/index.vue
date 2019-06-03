@@ -3,7 +3,6 @@
     <socialFixed/>
     <headerTop/>
     <videoYoutube/>
-    <call4papers />
     <speakers />
     <!-- <buytickets /> -->
     <!-- <schedule /> -->
@@ -23,7 +22,6 @@ import headerTop from "@/components/header";
 import videoYoutube from "@/components/video";
 import schedule from "@/components/schedule";
 import buytickets from "@/components/buytickets";
-import call4papers from "@/components/call4papers";
 import speakers from "@/components/speakers";
 import tickets from "@/components/tickets";
 import location from "@/components/location";
@@ -36,7 +34,6 @@ export default {
     socialFixed,
     headerTop,
     videoYoutube,
-    call4papers,
     schedule,
     buytickets,
     speakers,

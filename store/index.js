@@ -52,7 +52,7 @@ export const state = () => ({
       title: 'Primeiro Lote - Promocional',
       date: 'Até 31/05',
       link: 'https://www.sympla.com.br/devparana-conference-2019__520952',
-      soldout: false,
+      soldout: true,
       available: true
     },
     {
@@ -61,7 +61,7 @@ export const state = () => ({
       title: 'Primeiro Lote',
       date: 'Até 31/05',
       link: 'https://www.sympla.com.br/devparana-conference-2019__520952',
-      soldout: false,
+      soldout: true,
       available: true
     },
     {
@@ -71,7 +71,7 @@ export const state = () => ({
       date: 'Até 30/06',
       link: 'https://www.sympla.com.br/devparana-conference-2019__520952',
       soldout: false,
-      available: false
+      available: true
     },
     {
       id: 4,
@@ -80,7 +80,7 @@ export const state = () => ({
       date: 'Até 30/06',
       link: 'https://www.sympla.com.br/devparana-conference-2019__520952',
       soldout: false,
-      available: false
+      available: true
     },
     {
       id: 5,

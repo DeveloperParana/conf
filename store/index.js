@@ -34,6 +34,14 @@ export const state = () => ({
     description: 'A tester, agile coach and instructor that help people and companies to deliver a high quality software.',
     twitter: 'https://twitter.com/eliasnogueira',
     linkedin: 'https://www.linkedin.com/in/eliasnogueira'
+  },
+  {
+    id: 5,
+    name: 'Fabio Akita',
+    image: 'fabio',
+    role: ' CodeMiner 42, Omnitrade, Akitando',
+    description: 'Co-fundador da Codeminer 42, boutique de desenvolvimento de software trabalhando com clientes do Brasil e EUA desde 2011. Foi co-fundador e ex-organizador da Rubyconf Brasil de 2008 a 2016. Atualmente organiza a conferência The Conf, que vai para a 3a edição em 2019. Já realizou mais de 200 palestras em diversas cidades do Brasil, EUA, Europa e Ásia. Também é co-fundador da Omnitrade, corretora de criptomoedas. É influenciador em tecnologia, principalmente com Ruby on Rails desde 2006 e hoje mantém um canal no YouTube.',
+    twitter: 'https://twitter.com/akitaonrails'
   }],
   schedules: [
     /*  {

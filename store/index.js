@@ -17,17 +17,17 @@ export const state = () => ({
     twitter: 'https://twitter.com/wh0isdxk',
     linkedin: 'https://www.linkedin.com/in/daianemsantos/'
   },
+  // {
+  //   id: 3,
+  //   name: 'Yara Senger ',
+  //   image: 'yara',
+  //   role: ' GlobalCode, São Paulo/PR - Brasil',
+  //   description: 'Experienced Founder with a demonstrated history of working in the computer software industry, focused in Java and Internet of Things. Strong entrepreneurship professional skilled in Community Management and Event Management.',
+  //   twitter: 'https://twitter.com/yarasenger',
+  //   linkedin: 'https://www.linkedin.com/in/yarasenger'
+  // },
   {
     id: 3,
-    name: 'Yara Senger ',
-    image: 'yara',
-    role: ' GlobalCode, São Paulo/PR - Brasil',
-    description: 'Experienced Founder with a demonstrated history of working in the computer software industry, focused in Java and Internet of Things. Strong entrepreneurship professional skilled in Community Management and Event Management.',
-    twitter: 'https://twitter.com/yarasenger',
-    linkedin: 'https://www.linkedin.com/in/yarasenger'
-  },
-  {
-    id: 4,
     name: 'Elias Nogueira ',
     image: 'elias',
     role: ' Sicredi',
@@ -36,7 +36,7 @@ export const state = () => ({
     linkedin: 'https://www.linkedin.com/in/eliasnogueira'
   },
   {
-    id: 5,
+    id: 4,
     name: 'Fabio Akita',
     image: 'fabio',
     role: ' CodeMiner 42, Omnitrade, Akitando',

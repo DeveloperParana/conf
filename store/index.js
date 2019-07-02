@@ -26,17 +26,17 @@ export const state = () => ({
   //   twitter: 'https://twitter.com/yarasenger',
   //   linkedin: 'https://www.linkedin.com/in/yarasenger'
   // },
+  // {
+  //   id: 3,
+  //   name: 'Elias Nogueira ',
+  //   image: 'elias',
+  //   role: ' Sicredi',
+  //   description: 'A tester, agile coach and instructor that help people and companies to deliver a high quality software.',
+  //   twitter: 'https://twitter.com/eliasnogueira',
+  //   linkedin: 'https://www.linkedin.com/in/eliasnogueira'
+  // },
   {
     id: 3,
-    name: 'Elias Nogueira ',
-    image: 'elias',
-    role: ' Sicredi',
-    description: 'A tester, agile coach and instructor that help people and companies to deliver a high quality software.',
-    twitter: 'https://twitter.com/eliasnogueira',
-    linkedin: 'https://www.linkedin.com/in/eliasnogueira'
-  },
-  {
-    id: 4,
     name: 'Fabio Akita',
     image: 'fabio',
     role: ' CodeMiner 42, Omnitrade, Akitando',

@@ -17,24 +17,6 @@ export const state = () => ({
     twitter: 'https://twitter.com/wh0isdxk',
     linkedin: 'https://www.linkedin.com/in/daianemsantos/'
   },
-  // {
-  //   id: 3,
-  //   name: 'Yara Senger ',
-  //   image: 'yara',
-  //   role: ' GlobalCode, São Paulo/PR - Brasil',
-  //   description: 'Experienced Founder with a demonstrated history of working in the computer software industry, focused in Java and Internet of Things. Strong entrepreneurship professional skilled in Community Management and Event Management.',
-  //   twitter: 'https://twitter.com/yarasenger',
-  //   linkedin: 'https://www.linkedin.com/in/yarasenger'
-  // },
-  // {
-  //   id: 3,
-  //   name: 'Elias Nogueira ',
-  //   image: 'elias',
-  //   role: ' Sicredi',
-  //   description: 'A tester, agile coach and instructor that help people and companies to deliver a high quality software.',
-  //   twitter: 'https://twitter.com/eliasnogueira',
-  //   linkedin: 'https://www.linkedin.com/in/eliasnogueira'
-  // },
   {
     id: 3,
     name: 'Fabio Akita',
@@ -42,7 +24,33 @@ export const state = () => ({
     role: ' CodeMiner 42, Omnitrade, Akitando',
     description: 'Co-fundador da Codeminer 42, boutique de desenvolvimento de software trabalhando com clientes do Brasil e EUA desde 2011. Foi co-fundador e ex-organizador da Rubyconf Brasil de 2008 a 2016. Atualmente organiza a conferência The Conf, que vai para a 3a edição em 2019. Já realizou mais de 200 palestras em diversas cidades do Brasil, EUA, Europa e Ásia. Também é co-fundador da Omnitrade, corretora de criptomoedas. É influenciador em tecnologia, principalmente com Ruby on Rails desde 2006 e hoje mantém um canal no YouTube.',
     twitter: 'https://twitter.com/akitaonrails'
-  }],
+  },
+  {
+    id: 4,
+    name: 'João Cunha',
+    image: 'joao',
+    role: ' Gerente de produtos no Nubank',
+    description: 'Gerente de produtos no Nubank e desenvolvedor desde 2007, passando por empresas como Dubizzle/OLX em Dubai e FetLife no Canadá. É um apaixonado por comunidades e Lead Organizer do Google Developers Group de Presidente Prudente.',
+    twitter: 'https://twitter.com/joaocunha'
+  },
+  {
+    id: 5,
+    name: 'Vinicius Rodrigues',
+    image: 'vinicius',
+    role: ' Engenheiro de Software',
+    description: 'Engenheiro de Software apaixonado pelo Frontend bem feito. Gosto de trabalhar em aplicações robustas e desafiantes no âmbito do Frontend sempre buscando usar o que há de melhor no mercado em meus projetos. Apaixonado por aprender. ',
+    twitter: 'https://twitter.com/_viniro',
+    linkedin: 'https://linkedin.com/in/viniro'
+  },
+  {
+    id: 6,
+    name: 'Júlio de Lima',
+    image: 'julio',
+    role: ' Principal QA Engineer na Capco',
+    description: 'Possui experiência em testes envolvendo aplicações Web, Desktop, Mobile e serviços. É formado em Tecnologia em Informática, especialista em Docência no Ensino Superior e é mestrando em Engenharia Elétrica e Computação com foco em Inteligência Artificial no Mackenzie com o intuito de solucionar problemas de teste com IA e ML. Atua como professor em cursos de pós graduação em universidades do Paraná, Recife e Manaus. Ajudou mais de 14 empresas a implementar testes e automação usando ferramentas privadas e open-source usando PHP, Java, Ruby e Javascript. É palestrante assíduo em diversos eventos de tecnologia, disseminando a disciplina de testes de software, além de ser o co-fundador do meetup garoaQA.',
+    twitter: 'https://twitter.com/juliodelimas'
+  }
+  ],
   schedules: [
     /*  {
       id: 1,

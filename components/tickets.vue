@@ -7,6 +7,14 @@
         </div>
       </div>
 
+      <div class="size margin content center" id="kids">
+        <div>
+          <a href="https://www.sympla.com.br/devparana-conference-2019__520952">
+            <img alt="DevParaná kids" v-bind:src="require(`@/assets/images/kids.png`)" />
+          </a>
+        </div>
+      </div>
+
       <div class="container wrap">
         <div
           class="tickets--item col-12 col-xs-6 col-sm-6 col-md-6 col-lg-3"

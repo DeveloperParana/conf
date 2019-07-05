@@ -49,6 +49,13 @@ export const state = () => ({
     role: ' Principal QA Engineer na Capco',
     description: 'Possui experiência em testes envolvendo aplicações Web, Desktop, Mobile e serviços. É formado em Tecnologia em Informática, especialista em Docência no Ensino Superior e é mestrando em Engenharia Elétrica e Computação com foco em Inteligência Artificial no Mackenzie com o intuito de solucionar problemas de teste com IA e ML. Atua como professor em cursos de pós graduação em universidades do Paraná, Recife e Manaus. Ajudou mais de 14 empresas a implementar testes e automação usando ferramentas privadas e open-source usando PHP, Java, Ruby e Javascript. É palestrante assíduo em diversos eventos de tecnologia, disseminando a disciplina de testes de software, além de ser o co-fundador do meetup garoaQA.',
     twitter: 'https://twitter.com/juliodelimas'
+  },
+  {
+    id: 7,
+    name: 'Paulo',
+    image: 'paulo',
+    role: ' Arquiteto de sistemas na CI&T',
+    description: 'Sou apaixonado por tecnologia e me considero um eterno estudante. Trabalho atualmente como arquiteto de sistemas na CI&T e recentemente aceitei o desafio de atuar também como community manager. Me formei em Comunicação Digital e me pós graduei em Arquitetura de Sistemas Distribuídos. Em toda minha carreira, fiz várias guinadas buscando atuar em áreas completamente diferentes, mas nunca me arrependi de nenhuma mudança; todas elas me impulsionaram a me tornar um profissional melhor e mais versátil. Também já fui premiado três vezes como MVP Microsoft e na última década, venho desenvolvendo soluções digitais para grandes empresas.'
   }
   ],
   schedules: [
@@ -91,7 +98,7 @@ export const state = () => ({
     },
     {
       id: 4,
-      value: '130,00 + 1Kg de alimento',
+      value: '130,00',
       title: 'Segundo Lote',
       date: 'Até 30/06',
       link: 'https://www.sympla.com.br/devparana-conference-2019__520952',

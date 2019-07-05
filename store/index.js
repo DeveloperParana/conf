@@ -52,21 +52,21 @@ export const state = () => ({
   },
   {
     id: 7,
-    name: 'Paulo',
+    name: 'André Paulovich Pinheiro Gomes',
     image: 'paulo',
     role: ' Arquiteto de sistemas na CI&T',
     description: 'Sou apaixonado por tecnologia e me considero um eterno estudante. Trabalho atualmente como arquiteto de sistemas na CI&T e recentemente aceitei o desafio de atuar também como community manager. Me formei em Comunicação Digital e me pós graduei em Arquitetura de Sistemas Distribuídos. Em toda minha carreira, fiz várias guinadas buscando atuar em áreas completamente diferentes, mas nunca me arrependi de nenhuma mudança; todas elas me impulsionaram a me tornar um profissional melhor e mais versátil. Também já fui premiado três vezes como MVP Microsoft e na última década, venho desenvolvendo soluções digitais para grandes empresas.'
   }
   ],
   schedules: [
-    /*  {
+    {
       id: 1,
       time: '8:00',
       title: 'COFFEE',
       name: '',
       tag: [],
       description: 'Café da manhã  / Credenciamento / Networking'
-    } */
+    }
   ],
   tickets: [
     {

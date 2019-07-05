@@ -61,11 +61,107 @@ export const state = () => ({
   schedules: [
     {
       id: 1,
-      time: '8:00',
+      time: '7:30',
       title: 'COFFEE',
       name: '',
       tag: [],
       description: 'Café da manhã  / Credenciamento / Networking'
+    },
+    {
+      id: 2,
+      time: '8:30',
+      title: 'Abertura',
+      name: '',
+      tag: [],
+      description: 'Boas vindas e alguns recados sobre a programação do dia.'
+    },
+    {
+      id: 3,
+      time: '9:00',
+      title: 'Arquitetura Evolutiva, O segredo da arquitetura ágil',
+      name: 'André Paulovich Pinheiro Gomes',
+      tag: [],
+      description: 'Ao começar qualquer iniciativa digital, seja um produto ou serviço que envolva tecnologia, a única grande certeza que temos é que tudo que planejamos no início fatalmente irá mudar. Neste contexto de grandes incertezas, como fica o papel de um arquiteto de softwares que tem a responsabilidade de garantir que a tecnologia seja sempre bem empregada. Como planejar o futuro de um software que não sabemos exatamente onde irá chegar? Como garantir evoluções seguras para necessidades que ainda não conhecemos? Se você também já passou por situações parecidas... acredite, existem estratégias para absorver mudanças contínuas numa arquitetura de software, vamos conhecê-las.'
+    },
+    {
+      id: 4,
+      time: '9:50',
+      title: 'Darkside em Internet das Coisas',
+      name: 'Daiane dos Santos',
+      tag: [],
+      description: 'Vemos que o mundo está evoluindo para um lugar onde tudo será conectado, temos o aumento da comodidade e eficiencia. Mas, nos tempos de hoje também vivemos nos questionando em relação a nossa privacidade. Como manter a segurança em dispositivos de Internet das Coisas? E quais maneiras  nós temos de prevenção desses ataques?'
+    },
+    {
+      id: 6,
+      time: '10:40',
+      title: 'Feature Flags: sexta-feira também é dia de lançamento',
+      name: 'João Cunha',
+      tag: [],
+      description: 'Você sonha em lançar novas features do seu produto de maneira instantânea, com um clique no dashboard? E se além disso você pudesse controlar a porcentagem de usuários que terão acesso a essas features de maneira progressiva? Big-Bang deploys, staging desatualizado, rollbacks emergenciais, releases que quebram o produto… conheça o conceito de Feature Flagging e deixe tudo isso pra trás. Nessa talk eu explico como usar o Feature Flag-Driven Development para criar modelos de subscription, testes A/B, allowlist/denylist de usuários, opt-in de novas funcionalidades, e muito mais.'
+    },
+    {
+      id: 7,
+      time: '11:30',
+      title: 'Almoço',
+      name: '',
+      tag: [],
+      description: 'Temos várias opções no local do evento.'
+    },
+    {
+      id: 8,
+      time: '13:00',
+      title: 'Inteligência Artificial e Testes in a Nutshell',
+      name: 'Júlio de Lima',
+      tag: [],
+      description: 'Ouvimos muito falar sobre Inteligência Artificial e o quanto ela tem ajudado a solucionar problemas corporativos, pessoais e até mesmo ambientais. Mas você já viu a aplicação dela na disciplina de testes de software? Criação de testes automaticamente, rastreamento de causa raiz de falhas e aumento da cobertura de testes automatizados são algumas das aplicações já identificadas. Junte-se a nós nessa palestra e conheça o que há disponível no mercado e academia, além de assistir ao uso de algoritmos que já solucionam vários desses problemas.'
+    },
+    {
+      id: 9,
+      time: '14:00',
+      title: 'Psicologia e UX, como o conhecimento sobre psicologia pode melhorar a experiência do seu usuário',
+      name: 'Vinicius Rodrigues',
+      tag: [],
+      description: 'Você não precisa ser um psicólogo para ser um UXer, mas um pouco de conhecimento na área pode ajudar a desenvolver experiências ainda melhores. Vou apresentar alguns conceitos relevantes para a experiência do usuário e como podemos aplicá-los em nosso dia-a-dia.'
+    },
+    {
+      id: 10,
+      time: '14:50',
+      title: 'TALK A SER DEFINIDA',
+      name: '',
+      tag: [],
+      description: ''
+    },
+    {
+      id: 11,
+      time: '15:40',
+      title: 'INTERVALO / COFFEE',
+      name: '',
+      tag: [],
+      description: ''
+    },
+    {
+      id: 12,
+      time: '16:10',
+      title: 'Agile Retrospectives: Usando-a ao seu favor para iniciar seu Kaisen',
+      name: 'Sheila Kimura',
+      tag: [],
+      description: 'Sua retrospectiva está sendo efeitva? Existe melhoria de fato no seu time e na sua empresa? Nesta palestra teremos um exemplo de como organizar essa sessão para que ela tenha um objetivo bem definido e relevante, de fato, as necessidades de melhorias a serem trabalhadas.Além disso, veremos como iniciar um Kaizen real a partir de uma retrospectiva bem estruturada.Bora mudar a cultura de ritos que parecem só consumir tempo e cumprir tabela para sessões efetivas de melhoria contínua?'
+    },
+    {
+      id: 13,
+      time: '17:00',
+      title: 'Uma discussão sobre a Carreira de TI',
+      name: 'Fábio Akita',
+      tag: [],
+      description: 'Seja iniciantes recém-formados ou mesmo quem já está na área, sempre existem dúvidas sobre o que é a carreira em tecnologia, quais são os mercados, quais as diferenças em cursos de faculdade, como pensar sobre remuneração e níveis e o que dizer sobre as oportunidades de empreendedorismo e tech startups. Nessa palestra quero dar um pequeno panorama para aumentar os horizontes para quem pretende perseguir essa profissão.'
+    },
+    {
+      id: 14,
+      time: '17:50',
+      title: 'ENCERRAMENTO / SORTEIOS',
+      name: '',
+      tag: [],
+      description: ''
     }
   ],
   tickets: [

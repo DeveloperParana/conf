@@ -5,7 +5,7 @@
     <videoYoutube/>
     <speakers />
     <!-- <buytickets /> -->
-    <!-- <schedule /> -->
+    <schedule />
     <tickets />
     <location />
     <contact />

@@ -37,8 +37,8 @@ export const state = () => ({
     id: 5,
     name: 'Emmanuel Neri',
     image: 'neri',
-    role: ' Professor na FACEC e Developer na Jaya Tech',
-    description: 'Mestre em desenvolvimento de tecnologia, atuando com desenvolvimento Java desde 2010, com vivência em diferentes projetos/produtos de software em variados segmentos. Entusiasta por boas práticas e arquitetura de sistemas. Atualmente professor na FACEC e developer na Jaya Tech.',
+    role: ' Developer na Jaya Tech',
+    description: 'Mestre em desenvolvimento de tecnologia, atuando com desenvolvimento Java desde 2010, com vivência em diferentes projetos/produtos de software em variados segmentos. Entusiasta por boas práticas e arquitetura de sistemas. Atualmente professor universitário e developer na Jaya Tech.',
     twitter: 'https://twitter.com/emmanuelnerii'
   },
   {

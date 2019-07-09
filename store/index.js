@@ -35,12 +35,11 @@ export const state = () => ({
   },
   {
     id: 5,
-    name: 'Vinicius Rodrigues',
-    image: 'vinicius',
-    role: ' Engenheiro de Software',
-    description: 'Engenheiro de Software apaixonado pelo Frontend bem feito. Gosto de trabalhar em aplicações robustas e desafiantes no âmbito do Frontend sempre buscando usar o que há de melhor no mercado em meus projetos. Apaixonado por aprender. ',
-    twitter: 'https://twitter.com/_viniro',
-    linkedin: 'https://linkedin.com/in/viniro'
+    name: 'Emmanuel Neri',
+    image: 'neri',
+    role: ' Professor na FACEC e Developer na Jaya Tech',
+    description: 'Mestre em desenvolvimento de tecnologia, atuando com desenvolvimento Java desde 2010, com vivência em diferentes projetos/produtos de software em variados segmentos. Entusiasta por boas práticas e arquitetura de sistemas. Atualmente professor na FACEC e developer na Jaya Tech.',
+    twitter: 'https://twitter.com/emmanuelnerii'
   },
   {
     id: 6,
@@ -118,10 +117,10 @@ export const state = () => ({
     {
       id: 9,
       time: '14:00',
-      title: 'Psicologia e UX, como o conhecimento sobre psicologia pode melhorar a experiência do seu usuário',
-      name: 'Vinicius Rodrigues',
+      title: 'Arquitetura reativa, a solução para os microserviços?',
+      name: 'Emmanuel Neri',
       tag: [],
-      description: 'Você não precisa ser um psicólogo para ser um UXer, mas um pouco de conhecimento na área pode ajudar a desenvolver experiências ainda melhores. Vou apresentar alguns conceitos relevantes para a experiência do usuário e como podemos aplicá-los em nosso dia-a-dia.'
+      description: 'O objetivo da apresentação é  explanar o conceito de reatividade em arquiteturas de sistemas distribuídos, baseado nos 4 pilares do manifesto reativo (Responsivo, Resiliente, Elástico e Orientado a Mensagens) e também diferenciar os conceitos de programação reativa e arquitetura reativa. Além disso, no decorrer da apresentação será apresentando os trade offs das arquiteturas reativas em relação a outros tipos de arquiteturas. '
     },
     {
       id: 10,

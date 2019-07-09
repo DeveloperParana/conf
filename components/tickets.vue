@@ -7,18 +7,16 @@
         </div>
       </div>
 
-      <div class="size margin content center" id="kids">
-        <div>
-          <a href="https://www.sympla.com.br/devparana-conference-2019__520952">
-            <img alt="DevParaná kids" v-bind:src="require(`@/assets/images/kids.png`)" />
-          </a>
-        </div>
+      <div class="content center" id="kids">
+        <a href="https://www.sympla.com.br/devparana-conference-2019__520952" target="_blank">
+          <img alt="DevParaná kids" class="kids-img" v-bind:src="require(`@/assets/images/kids.png`)" />
+        </a>
       </div>
 
       <div class="container wrap">
         <div
-          class="tickets--item col-12 col-xs-6 col-sm-6 col-md-6 col-lg-3"
-          :class="'ticket-' + ticket.id"
+          class="tickets--item col-12 col-xs-6 col-sm-6 col-md-6 col-lg-4"
+          :class="{ 'ticket-soldout' : ticket.soldout, ['ticket-' + ticket.id]: ticket.id }"
           v-for="ticket in tickets"
           :key="ticket.id"
         >

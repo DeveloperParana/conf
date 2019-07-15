@@ -15,7 +15,7 @@
             </a>
           </li>
         </ul>
-        <h3 class="support--type flex-grow-1">Silver & Kids</h3>
+        <h3 class="support--type flex-grow-1">Silver</h3>
         <ul class="support--list list-style-none">
           <li class="support--item" v-for="sponsor in getSponsorByType('silver')" :key="sponsor.id">
             <a v-bind:href="sponsor.address">
@@ -33,10 +33,7 @@
 
     <div class="support--block justify-content-center container column" id="support">
       <div class>
-        <div class="box-title">
-          <h2 class="support--title flex-grow-1" v-if="support.lenght">Apoio</h2>
-        </div>
-
+        <h3 class="support--type flex-grow-1">Apoio</h3>
         <ul class="support--list list-style-none">
           <li class="support--item" v-for="supporter in support" :key="supporter.id">
             <a v-bind:href="supporter.address">

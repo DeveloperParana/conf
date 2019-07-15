@@ -55,6 +55,13 @@ export const state = () => ({
     image: 'paulo',
     role: ' Arquiteto de sistemas na CI&T',
     description: 'Sou apaixonado por tecnologia e me considero um eterno estudante. Trabalho atualmente como arquiteto de sistemas na CI&T e recentemente aceitei o desafio de atuar também como community manager. Me formei em Comunicação Digital e me pós graduei em Arquitetura de Sistemas Distribuídos. Em toda minha carreira, fiz várias guinadas buscando atuar em áreas completamente diferentes, mas nunca me arrependi de nenhuma mudança; todas elas me impulsionaram a me tornar um profissional melhor e mais versátil. Também já fui premiado três vezes como MVP Microsoft e na última década, venho desenvolvendo soluções digitais para grandes empresas.'
+  },
+  {
+    id: 8,
+    name: 'Rafael Pereira',
+    image: 'pereira',
+    role: ' Diretor de Engenharia na Globo.com',
+    description: 'Director of Engineering in Globo.com responsible for the development of Globo?s Digital Platforms (Video, Publishing and Identity Manager). He has PhD in Computer Science with focus on Machine Learning, and more than twelve years of experience in engineering and agile development, working to deliver high quality and innovative products, such as GloboPlay, GlobosatPlay, first 4K live streaming of Soccer World Cup, etc.'
   }
   ],
   schedules: [
@@ -125,10 +132,10 @@ export const state = () => ({
     {
       id: 10,
       time: '14:50',
-      title: 'TALK A SER DEFINIDA',
-      name: '',
+      title: 'Quando tudo dá errado: O case do outage na transmissão da Copa na Globo.com',
+      name: 'Rafael Pereira',
       tag: [],
-      description: ''
+      description: 'Na vida real, nem sempre as coisas funcionam como o esperado. Por mais que você construa aplicações com pensamento em escalabilidade e alta disponibilidade, as vezes tudo dá errado! Nesta sessão iremos compartilhar o case de um dos outages mais relevantes que tivemos na Globo.com: O que aconteceu quando ficamos 1 hora fora do ar durante a transmissão da Copa do Mundo de 2018? Vamos compartilhar um pouco sobre como funciona a arquitetura de streaming da Globo.com, o que gerou um dos nossos maiores outages, e lições aprendidas que podem ajudar a deixar suas aplicações mais escaláveis e tolerantes a falhas!'
     },
     {
       id: 11,
@@ -221,29 +228,48 @@ export const state = () => ({
   ],
   sponsors: [
     {
-      id: 2,
+      id: 1,
       name: 'Mandic Cloud Solutions',
       address: 'https://www.mandic.com.br/',
       image: 'mandic',
       type: 'diamond'
     },
     {
-      id: 3,
+      id: 2,
       name: 'Elotech',
       address: 'https://www.elotech.com.br/',
       image: 'elotech',
       type: 'diamond'
     },
     {
+      id: 3,
+      name: 'Tecnospeed',
+      address: 'https://tecnospeed.com.br/',
+      image: 'tecnospeed',
+      type: 'diamond'
+    },
+    {
       id: 4,
       name: 'DB1',
-      address: 'https://www.db1.com.br',
+      address: 'https://www.db1.com.br/',
       image: 'db1',
+      type: 'silver'
+    },
+    {
+      id: 5,
+      name: 'Globo.com',
+      address: 'https://globo.com/',
+      image: 'globo',
       type: 'silver'
     }
   ],
   support: [
-
+    {
+      id: 1,
+      name: 'UniCesumar',
+      address: 'https://www.unicesumar.edu.br',
+      image: 'unicesumar'
+    }
   /*  {
     id: 3,
     name: 'PodTag',

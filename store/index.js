@@ -99,11 +99,11 @@ export const state = () => ({
     },
     {
       id: 6,
-      time: '10:40',
-      title: 'Feature Flags: sexta-feira também é dia de lançamento',
-      name: 'João Cunha',
+      time: '14:50',
+      title: 'Quando tudo dá errado: O case do outage na transmissão da Copa na Globo.com',
+      name: 'Rafael Pereira',
       tag: [],
-      description: 'Você sonha em lançar novas features do seu produto de maneira instantânea, com um clique no dashboard? E se além disso você pudesse controlar a porcentagem de usuários que terão acesso a essas features de maneira progressiva? Big-Bang deploys, staging desatualizado, rollbacks emergenciais, releases que quebram o produto… conheça o conceito de Feature Flagging e deixe tudo isso pra trás. Nessa talk eu explico como usar o Feature Flag-Driven Development para criar modelos de subscription, testes A/B, allowlist/denylist de usuários, opt-in de novas funcionalidades, e muito mais.'
+      description: 'Na vida real, nem sempre as coisas funcionam como o esperado. Por mais que você construa aplicações com pensamento em escalabilidade e alta disponibilidade, as vezes tudo dá errado! Nesta sessão iremos compartilhar o case de um dos outages mais relevantes que tivemos na Globo.com: O que aconteceu quando ficamos 1 hora fora do ar durante a transmissão da Copa do Mundo de 2018? Vamos compartilhar um pouco sobre como funciona a arquitetura de streaming da Globo.com, o que gerou um dos nossos maiores outages, e lições aprendidas que podem ajudar a deixar suas aplicações mais escaláveis e tolerantes a falhas!'
     },
     {
       id: 7,
@@ -131,11 +131,11 @@ export const state = () => ({
     },
     {
       id: 10,
-      time: '14:50',
-      title: 'Quando tudo dá errado: O case do outage na transmissão da Copa na Globo.com',
-      name: 'Rafael Pereira',
+      time: '10:40',
+      title: 'Feature Flags: sexta-feira também é dia de lançamento',
+      name: 'João Cunha',
       tag: [],
-      description: 'Na vida real, nem sempre as coisas funcionam como o esperado. Por mais que você construa aplicações com pensamento em escalabilidade e alta disponibilidade, as vezes tudo dá errado! Nesta sessão iremos compartilhar o case de um dos outages mais relevantes que tivemos na Globo.com: O que aconteceu quando ficamos 1 hora fora do ar durante a transmissão da Copa do Mundo de 2018? Vamos compartilhar um pouco sobre como funciona a arquitetura de streaming da Globo.com, o que gerou um dos nossos maiores outages, e lições aprendidas que podem ajudar a deixar suas aplicações mais escaláveis e tolerantes a falhas!'
+      description: 'Você sonha em lançar novas features do seu produto de maneira instantânea, com um clique no dashboard? E se além disso você pudesse controlar a porcentagem de usuários que terão acesso a essas features de maneira progressiva? Big-Bang deploys, staging desatualizado, rollbacks emergenciais, releases que quebram o produto… conheça o conceito de Feature Flagging e deixe tudo isso pra trás. Nessa talk eu explico como usar o Feature Flag-Driven Development para criar modelos de subscription, testes A/B, allowlist/denylist de usuários, opt-in de novas funcionalidades, e muito mais.'
     },
     {
       id: 11,

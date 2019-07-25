@@ -99,7 +99,7 @@ export const state = () => ({
     },
     {
       id: 6,
-      time: '14:50',
+      time: '10:40',
       title: 'Quando tudo dá errado: O case do outage na transmissão da Copa na Globo.com',
       name: 'Rafael Pereira',
       tag: [],
@@ -131,7 +131,7 @@ export const state = () => ({
     },
     {
       id: 10,
-      time: '10:40',
+      time: '14:50',
       title: 'Feature Flags: sexta-feira também é dia de lançamento',
       name: 'João Cunha',
       tag: [],
@@ -260,6 +260,13 @@ export const state = () => ({
       name: 'Globo.com',
       address: 'https://globo.com/',
       image: 'globo',
+      type: 'silver'
+    },
+    {
+      id: 6,
+      name: 'HBSIS',
+      address: 'https://hbsis.com.br',
+      image: 'hbsis',
       type: 'silver'
     }
   ],

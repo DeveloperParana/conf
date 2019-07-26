@@ -3,7 +3,7 @@ export const state = () => ({
     id: 1,
     name: 'Sheila Kimura',
     image: 'sheila',
-    role: 'Concrete, São Paulo/SP - Brasil',
+    role: ' São Paulo/SP - Brasil',
     description: 'Uma agilista apaixonada por facilitação e formação de times engajados e cheios de propósito, é Pedagoga Multimeios e Informática Educativa em sua formação base e possui, também, título em MBA em Gestão da Qualidade de Software. PACC, CSM, CSPO, M3.0 - mas, acredita que pessoas são mais importantes! Apoia fortemente mulheres a ingressarem na TI e apoia a importância da diversidade lutando por representatividade.',
     twitter: 'https://twitter.com/sheilakimura83',
     linkedin: 'https://www.linkedin.com/in/sheila-kimura'

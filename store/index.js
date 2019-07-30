@@ -268,6 +268,13 @@ export const state = () => ({
       address: 'https://hbsis.com.br',
       image: 'hbsis',
       type: 'silver'
+    },
+    {
+      id: 7,
+      name: 'BoaCompra',
+      address: 'https://boacompra.com',
+      image: 'boacompra',
+      type: 'silver'
     }
   ],
   support: [

@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="hero-video">
-                  <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/pDzoF6qaey0?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/pDzoF6qaey0?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
               </div>
 
@@ -54,7 +54,7 @@ export default {
 }
 
 .hero {
-  min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 100px);
   position: relative;
   padding-top: 100px;
 }

@@ -20,28 +20,36 @@
             </div>
             <nav>
               <ul class="container wrap">
-                <li>
+                <li class="link">
                   <router-link to="#home">Página inicial</router-link>
                 </li>
-                <li>
+                <!-- <li>
                   <router-link to="#about">Sobre</router-link>
+                </li> -->
+                <li  class="link">
+                  <router-link to="#schedule">Programação</router-link>
                 </li>
-                <li>
+                <li class="link">
                   <router-link to="#speakers">Palestrantes</router-link>
                 </li>
                 <li>
+                  <a href="https://www.youtube.com/channel/UCbQTyfwWNobgIfjVF0edVdA" target="blank" class="live">
+                    <span class="ball"></span>
+                    Live
+                  </a>
+                </li>
+                <!-- <li>
                   <router-link to="#tickets">Ingressos e mais</router-link>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                   <router-link to="#location">Localização</router-link>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                   <router-link to="#contact">Contato</router-link>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                 <a target="_blank" href="http://bit.ly/c4pdevpr2019">Call 4 Papers</a>
-
-                </li>
+                </li> -->
               </ul>
             </nav>
           </div>
@@ -105,7 +113,7 @@ $size-menu: 60px;
 
 .menu--relative {
   position: relative;
-  height: $size-menu;
+  height: $size-menu + 40px;
   padding-top: 40px;
 }
 
@@ -166,7 +174,7 @@ $size-menu: 60px;
 .menu--content--links {
   ul {
     list-style: none;
-    li {
+    li.link {
       margin: 10px;
       a {
         color: #fff;
@@ -218,5 +226,29 @@ $size-menu: 60px;
     }
     animation: showMenu 0.3s backwards;
   }
+}
+
+.live {
+  background: #e53e3e;
+  padding: 2px 12px 2px 8px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0 10px 10px;
+  color: $color-white;
+  font-weight: bold;
+  transition: 0.3s;
+
+  &:hover {
+    background: #c53030;
+  }
+}
+
+.ball {
+  width: 10px;
+  height: 10px;
+  background: $color-white;
+  border-radius: 50px;
+  margin-right: 8px;
 }
 </style>

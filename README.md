@@ -1,6 +1,6 @@
-# conf-2019
+# conf-2020
 
-> Dev Paraná Conference 2019
+> Dev Paraná Conference 2020
 
 ## Build Setup
 

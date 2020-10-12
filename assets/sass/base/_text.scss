@@ -45,7 +45,11 @@ h6 {
 
 .box-title {
   text-transform: uppercase;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+
+  span {
+    color: $color-1;
+  }
 
   p {
     text-transform: none;

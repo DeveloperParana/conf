@@ -1,7 +1,7 @@
 {
-  "name": "conf-2018",
+  "name": "conf-2020",
   "version": "1.0.0",
-  "description": "Dev Paraná Conference 2018",
+  "description": "DevParaná Conference 2020",
   "private": true,
   "scripts": {
     "dev": "nuxt",

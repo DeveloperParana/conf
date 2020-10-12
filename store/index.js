@@ -1,69 +1,174 @@
 export const state = () => ({
-  speakers: [{
-    id: 1,
-    name: 'Sheila Kimura',
-    image: 'sheila',
-    role: ' São Paulo/SP - Brasil',
-    description: 'Uma agilista apaixonada por facilitação e formação de times engajados e cheios de propósito, é Pedagoga Multimeios e Informática Educativa em sua formação base e possui, também, título em MBA em Gestão da Qualidade de Software. PACC, CSM, CSPO, M3.0 - mas, acredita que pessoas são mais importantes! Apoia fortemente mulheres a ingressarem na TI e apoia a importância da diversidade lutando por representatividade.',
-    twitter: 'https://twitter.com/sheilakimura83',
-    linkedin: 'https://www.linkedin.com/in/sheila-kimura'
-  },
-  {
-    id: 2,
-    name: 'Daiane Santos',
-    image: 'daiane',
-    role: ' Oktagon Games, Londrina/PR - Brasil',
-    description: 'Graduanda em Engenharia da Computação pela UTFPR, Community Manager e QA na Oktagon Games, entusiasta de Segurança da Informação e CTF Player pela RATF',
-    twitter: 'https://twitter.com/wh0isdxk',
-    linkedin: 'https://www.linkedin.com/in/daianemsantos/'
-  },
-  {
-    id: 3,
-    name: 'Fabio Akita',
-    image: 'fabio',
-    role: ' CodeMiner 42, Omnitrade, Akitando',
-    description: 'Co-fundador da Codeminer 42, boutique de desenvolvimento de software trabalhando com clientes do Brasil e EUA desde 2011. Foi co-fundador e ex-organizador da Rubyconf Brasil de 2008 a 2016. Atualmente organiza a conferência The Conf, que vai para a 3a edição em 2019. Já realizou mais de 200 palestras em diversas cidades do Brasil, EUA, Europa e Ásia. Também é co-fundador da Omnitrade, corretora de criptomoedas. É influenciador em tecnologia, principalmente com Ruby on Rails desde 2006 e hoje mantém um canal no YouTube.',
-    twitter: 'https://twitter.com/akitaonrails'
-  },
-  {
-    id: 4,
-    name: 'João Cunha',
-    image: 'joao',
-    role: ' Gerente de produtos no Nubank',
-    description: 'Gerente de produtos no Nubank e desenvolvedor desde 2007, passando por empresas como Dubizzle/OLX em Dubai e FetLife no Canadá. É um apaixonado por comunidades e Lead Organizer do Google Developers Group de Presidente Prudente.',
-    twitter: 'https://twitter.com/joaocunha'
-  },
-  {
-    id: 5,
-    name: 'Emmanuel Neri',
-    image: 'neri',
-    role: ' Developer na Jaya Tech',
-    description: 'Mestre em desenvolvimento de tecnologia, atuando com desenvolvimento Java desde 2010, com vivência em diferentes projetos/produtos de software em variados segmentos. Entusiasta por boas práticas e arquitetura de sistemas. Atualmente professor universitário e developer na Jaya Tech.',
-    twitter: 'https://twitter.com/emmanuelnerii'
-  },
-  {
-    id: 6,
-    name: 'Júlio de Lima',
-    image: 'julio',
-    role: ' Principal QA Engineer na Capco',
-    description: 'Possui experiência em testes envolvendo aplicações Web, Desktop, Mobile e serviços. É formado em Tecnologia em Informática, especialista em Docência no Ensino Superior e é mestrando em Engenharia Elétrica e Computação com foco em Inteligência Artificial no Mackenzie com o intuito de solucionar problemas de teste com IA e ML. Atua como professor em cursos de pós graduação em universidades do Paraná, Recife e Manaus. Ajudou mais de 14 empresas a implementar testes e automação usando ferramentas privadas e open-source usando PHP, Java, Ruby e Javascript. É palestrante assíduo em diversos eventos de tecnologia, disseminando a disciplina de testes de software, além de ser o co-fundador do meetup garoaQA.',
-    twitter: 'https://twitter.com/juliodelimas'
-  },
-  {
-    id: 7,
-    name: 'André Paulovich Pinheiro Gomes',
-    image: 'paulo',
-    role: ' Arquiteto de sistemas na CI&T',
-    description: 'Sou apaixonado por tecnologia e me considero um eterno estudante. Trabalho atualmente como arquiteto de sistemas na CI&T e recentemente aceitei o desafio de atuar também como community manager. Me formei em Comunicação Digital e me pós graduei em Arquitetura de Sistemas Distribuídos. Em toda minha carreira, fiz várias guinadas buscando atuar em áreas completamente diferentes, mas nunca me arrependi de nenhuma mudança; todas elas me impulsionaram a me tornar um profissional melhor e mais versátil. Também já fui premiado três vezes como MVP Microsoft e na última década, venho desenvolvendo soluções digitais para grandes empresas.'
-  },
-  {
-    id: 8,
-    name: 'Rafael Pereira',
-    image: 'pereira',
-    role: ' Diretor de Engenharia na Globo.com',
-    description: 'Director of Engineering in Globo.com responsible for the development of Globo?s Digital Platforms (Video, Publishing and Identity Manager). He has PhD in Computer Science with focus on Machine Learning, and more than twelve years of experience in engineering and agile development, working to deliver high quality and innovative products, such as GloboPlay, GlobosatPlay, first 4K live streaming of Soccer World Cup, etc.'
-  }
+  weeks: [
+    {
+      id: 1,
+      title: 'Primeira',
+      speakers: [
+        {
+          id: 1,
+          event: "IngáPHP",
+          date: "12/10",
+          name: 'Sheila Kimura',
+          image: 'sheila',
+          role: ' São Paulo/SP - Brasil',
+          description: 'Uma agilista apaixonada por facilitação e formação de times engajados e cheios de propósito, é Pedagoga Multimeios e Informática Educativa em sua formação base e possui, também, título em MBA em Gestão da Qualidade de Software. PACC, CSM, CSPO, M3.0 - mas, acredita que pessoas são mais importantes! Apoia fortemente mulheres a ingressarem na TI e apoia a importância da diversidade lutando por representatividade.',
+          twitter: 'https://twitter.com/sheilakimura83',
+          linkedin: 'https://www.linkedin.com/in/sheila-kimura'
+        },
+        {
+          id: 2,
+          event: "DevGirls",
+          date: "13/10",
+          name: 'Daiane Santos',
+          image: 'daiane',
+          role: ' Oktagon Games, Londrina/PR - Brasil',
+          description: 'Graduanda em Engenharia da Computação pela UTFPR, Community Manager e QA na Oktagon Games, entusiasta de Segurança da Informação e CTF Player pela RATF',
+          twitter: 'https://twitter.com/wh0isdxk',
+          linkedin: 'https://www.linkedin.com/in/daianemsantos/'
+        },
+        {
+          id: 3,
+          event: "Femug",
+          date: "14/10",
+          name: 'Fabio Akita',
+          image: 'fabio',
+          role: ' CodeMiner 42, Omnitrade, Akitando',
+          description: 'Co-fundador da Codeminer 42, boutique de desenvolvimento de software trabalhando com clientes do Brasil e EUA desde 2011. Foi co-fundador e ex-organizador da Rubyconf Brasil de 2008 a 2016. Atualmente organiza a conferência The Conf, que vai para a 3a edição em 2019. Já realizou mais de 200 palestras em diversas cidades do Brasil, EUA, Europa e Ásia. Também é co-fundador da Omnitrade, corretora de criptomoedas. É influenciador em tecnologia, principalmente com Ruby on Rails desde 2006 e hoje mantém um canal no YouTube.',
+          twitter: 'https://twitter.com/akitaonrails'
+        },
+        {
+          id: 4,
+          event: "DevParaná Umuarama",
+          date: "15/10",
+          name: 'João Cunha',
+          image: 'joao',
+          role: ' Gerente de produtos no Nubank',
+          description: 'Gerente de produtos no Nubank e desenvolvedor desde 2007, passando por empresas como Dubizzle/OLX em Dubai e FetLife no Canadá. É um apaixonado por comunidades e Lead Organizer do Google Developers Group de Presidente Prudente.',
+          twitter: 'https://twitter.com/joaocunha'
+        },
+        {
+          id: 5,
+          event: "Python Maringá",
+          date: "16/10",
+          name: 'Emmanuel Neri',
+          image: 'neri',
+          role: ' Developer na Jaya Tech',
+          description: 'Mestre em desenvolvimento de tecnologia, atuando com desenvolvimento Java desde 2010, com vivência em diferentes projetos/produtos de software em variados segmentos. Entusiasta por boas práticas e arquitetura de sistemas. Atualmente professor universitário e developer na Jaya Tech.',
+          twitter: 'https://twitter.com/emmanuelnerii'
+        }
+      ]
+    },
+    {
+      id: 2,
+      title: 'Segunda',
+      speakers: [
+        {
+          id: 1,
+          event: "IXDA",
+          date: "19/10",
+          name: 'João Cunha',
+          image: 'joao',
+          role: ' Gerente de produtos no Nubank',
+          description: 'Gerente de produtos no Nubank e desenvolvedor desde 2007, passando por empresas como Dubizzle/OLX em Dubai e FetLife no Canadá. É um apaixonado por comunidades e Lead Organizer do Google Developers Group de Presidente Prudente.',
+          twitter: 'https://twitter.com/joaocunha'
+        },
+        {
+          id: 2,
+          event: "Agile Maringá",
+          date: "20/10",
+          name: 'Emmanuel Neri',
+          image: 'neri',
+          role: ' Developer na Jaya Tech',
+          description: 'Mestre em desenvolvimento de tecnologia, atuando com desenvolvimento Java desde 2010, com vivência em diferentes projetos/produtos de software em variados segmentos. Entusiasta por boas práticas e arquitetura de sistemas. Atualmente professor universitário e developer na Jaya Tech.',
+          twitter: 'https://twitter.com/emmanuelnerii'
+        },
+        {
+          id: 3,
+          event: "Delphi Ingá",
+          date: "21/10",
+          name: 'Júlio de Lima',
+          image: 'julio',
+          role: ' Principal QA Engineer na Capco',
+          description: 'Possui experiência em testes envolvendo aplicações Web, Desktop, Mobile e serviços. É formado em Tecnologia em Informática, especialista em Docência no Ensino Superior e é mestrando em Engenharia Elétrica e Computação com foco em Inteligência Artificial no Mackenzie com o intuito de solucionar problemas de teste com IA e ML. Atua como professor em cursos de pós graduação em universidades do Paraná, Recife e Manaus. Ajudou mais de 14 empresas a implementar testes e automação usando ferramentas privadas e open-source usando PHP, Java, Ruby e Javascript. É palestrante assíduo em diversos eventos de tecnologia, disseminando a disciplina de testes de software, além de ser o co-fundador do meetup garoaQA.',
+          twitter: 'https://twitter.com/juliodelimas'
+        },
+        {
+          id: 4,
+          event: "After Data",
+          date: "22/10",
+          name: 'André Paulovich Pinheiro Gomes',
+          image: 'paulo',
+          role: ' Arquiteto de sistemas na CI&T',
+          description: 'Sou apaixonado por tecnologia e me considero um eterno estudante. Trabalho atualmente como arquiteto de sistemas na CI&T e recentemente aceitei o desafio de atuar também como community manager. Me formei em Comunicação Digital e me pós graduei em Arquitetura de Sistemas Distribuídos. Em toda minha carreira, fiz várias guinadas buscando atuar em áreas completamente diferentes, mas nunca me arrependi de nenhuma mudança; todas elas me impulsionaram a me tornar um profissional melhor e mais versátil. Também já fui premiado três vezes como MVP Microsoft e na última década, venho desenvolvendo soluções digitais para grandes empresas.'
+        },
+        {
+          id: 5,
+          event: "DevParaná Campo Mourão",
+          date: "23/10",
+          name: 'Rafael Pereira',
+          image: 'pereira',
+          role: ' Diretor de Engenharia na Globo.com',
+          description: 'Director of Engineering in Globo.com responsible for the development of Globo?s Digital Platforms (Video, Publishing and Identity Manager). He has PhD in Computer Science with focus on Machine Learning, and more than twelve years of experience in engineering and agile development, working to deliver high quality and innovative products, such as GloboPlay, GlobosatPlay, first 4K live streaming of Soccer World Cup, etc.'
+        }
+      ]
+    },
+    {
+      id: 3,
+      title: 'Terceira',
+      speakers: [
+        {
+          id: 1,
+          event: "GDG Toledo",
+          date: "26/10",
+          name: 'João Cunha',
+          image: 'joao',
+          role: ' Gerente de produtos no Nubank',
+          description: 'Gerente de produtos no Nubank e desenvolvedor desde 2007, passando por empresas como Dubizzle/OLX em Dubai e FetLife no Canadá. É um apaixonado por comunidades e Lead Organizer do Google Developers Group de Presidente Prudente.',
+          twitter: 'https://twitter.com/joaocunha'
+        },
+        {
+          id: 2,
+          event: "Bemug",
+          date: "27/10",
+          name: 'Emmanuel Neri',
+          image: 'neri',
+          role: ' Developer na Jaya Tech',
+          description: 'Mestre em desenvolvimento de tecnologia, atuando com desenvolvimento Java desde 2010, com vivência em diferentes projetos/produtos de software em variados segmentos. Entusiasta por boas práticas e arquitetura de sistemas. Atualmente professor universitário e developer na Jaya Tech.',
+          twitter: 'https://twitter.com/emmanuelnerii'
+        },
+        {
+          id: 3,
+          event: "GDG Cascavel",
+          date: "28/10",
+          name: 'Júlio de Lima',
+          image: 'julio',
+          role: ' Principal QA Engineer na Capco',
+          description: 'Possui experiência em testes envolvendo aplicações Web, Desktop, Mobile e serviços. É formado em Tecnologia em Informática, especialista em Docência no Ensino Superior e é mestrando em Engenharia Elétrica e Computação com foco em Inteligência Artificial no Mackenzie com o intuito de solucionar problemas de teste com IA e ML. Atua como professor em cursos de pós graduação em universidades do Paraná, Recife e Manaus. Ajudou mais de 14 empresas a implementar testes e automação usando ferramentas privadas e open-source usando PHP, Java, Ruby e Javascript. É palestrante assíduo em diversos eventos de tecnologia, disseminando a disciplina de testes de software, além de ser o co-fundador do meetup garoaQA.',
+          twitter: 'https://twitter.com/juliodelimas'
+        },
+        {
+          id: 4,
+          event: "DevOps Maringá",
+          date: "29/10",
+          name: 'André Paulovich Pinheiro Gomes',
+          image: 'paulo',
+          role: ' Arquiteto de sistemas na CI&T',
+          description: 'Sou apaixonado por tecnologia e me considero um eterno estudante. Trabalho atualmente como arquiteto de sistemas na CI&T e recentemente aceitei o desafio de atuar também como community manager. Me formei em Comunicação Digital e me pós graduei em Arquitetura de Sistemas Distribuídos. Em toda minha carreira, fiz várias guinadas buscando atuar em áreas completamente diferentes, mas nunca me arrependi de nenhuma mudança; todas elas me impulsionaram a me tornar um profissional melhor e mais versátil. Também já fui premiado três vezes como MVP Microsoft e na última década, venho desenvolvendo soluções digitais para grandes empresas.'
+        },
+        {
+          id: 5,
+          event: "DevCia",
+          date: "30/10",
+          event: "DevParaná Campo Mourão",
+          name: 'Rafael Pereira',
+          image: 'pereira',
+          role: ' Diretor de Engenharia na Globo.com',
+          description: 'Director of Engineering in Globo.com responsible for the development of Globo?s Digital Platforms (Video, Publishing and Identity Manager). He has PhD in Computer Science with focus on Machine Learning, and more than twelve years of experience in engineering and agile development, working to deliver high quality and innovative products, such as GloboPlay, GlobosatPlay, first 4K live streaming of Soccer World Cup, etc.'
+        }
+      ]
+    },
   ],
+
   schedules: [
     {
       id: 1,
@@ -229,51 +334,16 @@ export const state = () => ({
   sponsors: [
     {
       id: 1,
-      name: 'Mandic Cloud Solutions',
-      address: 'https://www.mandic.com.br/',
-      image: 'mandic',
-      type: 'diamond'
-    },
-    {
-      id: 2,
-      name: 'Elotech',
-      address: 'https://www.elotech.com.br/',
-      image: 'elotech',
-      type: 'diamond'
-    },
-    {
-      id: 3,
       name: 'Tecnospeed',
       address: 'https://tecnospeed.com.br/',
       image: 'tecnospeed',
       type: 'diamond'
     },
     {
-      id: 4,
+      id: 2,
       name: 'DB1',
       address: 'https://www.db1.com.br/',
       image: 'db1',
-      type: 'silver'
-    },
-    {
-      id: 5,
-      name: 'Globo.com',
-      address: 'https://globo.com/',
-      image: 'globo',
-      type: 'silver'
-    },
-    {
-      id: 6,
-      name: 'HBSIS',
-      address: 'https://hbsis.com.br',
-      image: 'hbsis',
-      type: 'silver'
-    },
-    {
-      id: 7,
-      name: 'BoaCompra',
-      address: 'https://boacompra.com',
-      image: 'boacompra',
       type: 'silver'
     }
   ],

@@ -1,79 +1,35 @@
 <template lang="html">
-  <div class="">
-    <header class="bg-header" id="home">
-      <div class="header">
+  <div>
+    <header class="header" id="home">
         <menuFixed />
-
-        <div class="size margin">
-          <div class="header--block container">
-
-            <div class="header--block--intro container wrap">
-              <div class="header--block--text">
-                <!-- <h1 class="intro-text">
-                  <span>Dev</span>
-                  <span>Paraná</span>
-                  <span>Conf 2019</span>
-                </h1> -->
-                <div class="logo">
-                  <img src="~/assets/images/logo-full.svg" width="100%" alt="Logo DevParaná 2019">
-                </div>
-                <div class="intro-message margin-top-40">
-                  <div>
-                    De <span>pessoas</span>
+        <div class=" size margin">
+            <div class="hero container wrap">
+              <div class="container wrap justify-content-between full-width">
+                <div class="header-block">
+                  <div class="logo">
+                    <img src="~/assets/images/logo-full.svg" width="100%" alt="Logo DevParaná 2020">
                   </div>
-                  <div>
-                    Para <span>pessoas</span>
+
+                  <div class="intro-message margin-top-40">
+                    <div>
+                      Dos dias <span>10</span> à <span>30 de outubro</span>,
+                    </div>
+                    <div>
+                      online e gratuito no YouTube.
+                    </div>
                   </div>
                 </div>
 
+                <div class="hero-video">
+                  <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/pDzoF6qaey0?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                </div>
               </div>
 
-              <div class="header--block--date container column">
-                <div class="box-data container column margin-bottom-40">
-                  <span class="span-uppercase">Localização</span>
-                  <span class="font-span">Auditório Dona Etelvina, Bloco 7 Unicesumar - Maringá PR</span>
-                </div>
-
-                <div class="box-data container column margin-bottom-40">
-                  <span class="span-uppercase">DATA</span>
-                  <span class="font-span">03 de agosto</span>
-                </div>
-
-                <div class="box-data container column">
-                  <router-link to="#tickets" class="btn btn-lg btn-primary btn-fit">
-                     <span>Comprar</span>
-                     <span class="hidden">tickets</span>
-                  </router-link>
-                </div>
+              <div class="hero-img">
+                <img src="~/assets/images/talks.png" width="100%" alt="Logo DevParaná 2020">
               </div>
             </div>
-          </div>
-
-          <countdown :time="time" :interval="1000">
-            <div slot-scope="props">
-              <div class="header--block--days container wrap">
-                <div class="box-data box-1 container column align-center">
-                  <span class="font-strong">{{ props.days }}</span>
-                  <span class="span-uppercase">DIAS</span>
-                </div>
-                <div class="box-data box-2 container column align-center">
-                  <span class="font-strong">{{ props.hours }}</span>
-                  <span class="span-uppercase">HRS</span>
-                </div>
-                <div class="box-data box-3 container column align-center">
-                  <span class="font-strong">{{ props.minutes }}</span>
-                  <span class="span-uppercase">MINS</span>
-                </div>
-                <div class="box-data box-4 container column align-center">
-                  <span class="font-strong">{{ props.seconds }}</span>
-                  <span class="span-uppercase">SEGS</span>
-                </div>
-              </div>
-            </div>
-          </countdown>
         </div>
-
-      </div>
     </header>
   </div>
 </template>
@@ -82,187 +38,56 @@
 import menuFixed from "@/components/menu";
 
 export default {
-  data: function() {
-    let now = new Date();
-    let eventDate = new Date(2019, 7, 3, 8);
-
-    return {
-      time: eventDate - now
-    };
-  },
   components: {
-    menuFixed
-  }
+    menuFixed,
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-.bg-header {
-  background: url("~/assets/images/header.svg"),
-    url("~/assets/images/header-bg.svg");
-  background-position: 90% 100%, top center;
-  background-size: 600px, contain;
-  background-repeat: no-repeat;
-  @media (max-width: 768px) {
-    background-position: 40vw 50%, top left;
-    background-size: 100vw, 800px;
-  }
-}
-
 .header {
-  min-height: 100vh;
+  background: url("~/assets/images/hero.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 1280px;
   margin-bottom: 80px;
 }
 
-.header--block {
-  min-height: calc(100vh - 60px - 200px);
-  padding: 40px 0;
+.hero {
+  min-height: calc(100vh - 80px);
+  position: relative;
+  padding-top: 100px;
 }
 
 .logo {
-  width: 90%;
-  max-width: 400px;
-  margin-bottom: 100px;
-}
-
-.header--block--days {
-  height: 200px;
-
-  .box-data {
-    width: 25%;
-    font-size: 64px;
-    background: $color-2;
+  img {
+    width: 430px;
+    max-width: 100%;
   }
-
-  .box {
-    &-1 {
-      background: $color-1;
-      background: url("~/assets/images/box-1.svg"), $color-1;
-      background-position: center center;
-      background-size: cover;
-      color: $color-4;
-      .span-uppercase {
-        color: $color-white;
-      }
-    }
-    &-2 {
-      background: $color-3;
-      background: url("~/assets/images/box-2.svg"), $color-3;
-      background-position: center center;
-      background-size: cover;
-      color: $color-1;
-      .span-uppercase {
-        color: $color-white;
-      }
-    }
-    &-3 {
-      background: $color-1;
-      background: url("~/assets/images/box-3.svg"), $color-1;
-      background-position: center center;
-      background-size: cover;
-      color: $color-white;
-      .span-uppercase {
-        color: $color-white;
-      }
-    }
-    &-4 {
-      background: $color-3;
-      background: url("~/assets/images/box-4.svg"), $color-3;
-      background-position: center center;
-      background-size: cover;
-      color: $color-white;
-      .span-uppercase {
-        color: $color-white;
-      }
-    }
-  }
-  @media (max-width: 768px) {
-    height: 300px;
-    .span-uppercase {
-      font-size: 12px;
-    }
-    .box-data {
-      width: 50%;
-      border: 2px solid $color-4;
-    }
-  }
-  @media (max-width: 576px) {
-    // height: auto;
-    .span-uppercase {
-      font-size: 12px;
-    }
-    .box-data {
-      font-size: 34px;
-      // width: 100%;
-      // height: 200px;
-    }
-  }
-}
-
-.header--block--intro {
-  display: flex;
-  align-items: center;
-  width: 1200px;
-  max-width: 100%;
-}
-
-.intro-text {
-  span {
-    display: block;
-  }
-
-  @media (max-width: 768px) {
-    margin-top: 46px;
-  }
-}
-
-.header--block--date {
-  .span-uppercase {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 16px;
-    color: $color-1;
-  }
-  .font-span {
-    line-height: 1.5;
-    font-size: 24px;
-  }
-}
-
-.header--block--text,
-.header--block--date {
-  width: 50%;
 }
 
 .intro-message {
-  font-size: 40px;
-  color: $color-1;
-  line-height: 1.5;
+  text-align: right;
+  font-size: 20px;
 
   span {
-    background: $color-1;
-    color: $color-white;
+    color: $color-1;
   }
 }
 
-@media (max-width: 768px) {
-  .header--block--text,
-  .header--block--date {
-    width: 100%;
-  }
+.hero-img {
+  width: 100%;
+  max-width: 600px;
+  position: absolute;
+  bottom: 120px;
+  left: 0;
 }
 
-.btn-lg {
-  .hidden {
-    margin-left: 8px;
-  }
-}
-
-@media (max-width: 576px) {
-  .btn-lg {
-    .hidden {
-      display: none;
-    }
-  }
+.hero-video {
+  max-width: 100%;
+  width: 560px;
+  height: 315px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: $radius;
 }
 </style>

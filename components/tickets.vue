@@ -8,21 +8,34 @@
       </div>
 
       <div class="content center" id="kids">
-        <a href="https://www.sympla.com.br/devparana-conference-2019__520952" target="_blank">
-          <img alt="DevParaná kids" class="kids-img" v-bind:src="require(`@/assets/images/kids.png`)" />
+        <a
+          href="https://www.sympla.com.br/devparana-conference-2019__520952"
+          target="_blank"
+        >
+          <img
+            alt="DevParaná kids"
+            class="kids-img"
+            v-bind:src="require(`@/assets/images/kids.png`)"
+          />
         </a>
       </div>
 
       <div class="container wrap">
         <div
           class="tickets--item col-12 col-xs-6 col-sm-6 col-md-6 col-lg-4"
-          :class="{ 'ticket-soldout' : ticket.soldout, ['ticket-' + ticket.id]: ticket.id }"
+          :class="{
+            'ticket-soldout': ticket.soldout,
+            ['ticket-' + ticket.id]: ticket.id,
+          }"
           v-for="ticket in tickets"
           :key="ticket.id"
         >
           <div
             class="tickets--item--content container column"
-            :class="{ active :  currentticket === ticket.id, soldout : ticket.soldout}"
+            :class="{
+              active: currentticket === ticket.id,
+              soldout: ticket.soldout,
+            }"
             v-on:mouseover="currentticket = ticket.id"
           >
             <div class="tickets-border">
@@ -46,21 +59,23 @@
               <div class="span">EM BREVE</div>
             </div>
 
-            <div class="tickets-title text-align-center">{{ticket.title}}</div>
+            <div class="tickets-title text-align-center">
+              {{ ticket.title }}
+            </div>
 
             <div class="tickets-text">
               <div class="tickets-text-event">
                 <div>Dev</div>
                 <div>Paraná</div>
-                <div>Conf 2019</div>
+                <div>Conf 2020</div>
               </div>
               <div class="tickets-text-date">
                 <div class="tickets-span">Data</div>
-                {{ticket.date}}
+                {{ ticket.date }}
               </div>
               <div class="tickets-text-value">
                 <div class="tickets-span">Valor</div>
-                <span class="span-value">{{'R$' + ticket.value}}</span>
+                <span class="span-value">{{ "R$" + ticket.value }}</span>
               </div>
               <div class="tickets-btn">
                 <a
@@ -68,7 +83,8 @@
                   :href="ticket.link"
                   class="btn btn-primary btn-full"
                   :disabled="ticket.soldout || !ticket.available"
-                >Comprar tickets</a>
+                  >Comprar tickets</a
+                >
               </div>
             </div>
 
@@ -94,7 +110,7 @@
           <h3>
             <span>SOBRE O</span>
             <span>DEVPARANÁ</span>
-            <span>CONFERENCE 2019</span>
+            <span>CONFERENCE 2020</span>
           </h3>
           <p>
             <strong>O DevParaná pensando em trazer relevância de conteúdo aos desenvolvedores do nosso estado organiza o DevParaná Conference.</strong>
@@ -111,8 +127,8 @@
       </div>
       </div>-->
       <form id="form-camiseta">
-        <input type="hidden" name="iot" value="button">
-        <input type="hidden" name="code" :value="tshirtSize">
+        <input type="hidden" name="iot" value="button" />
+        <input type="hidden" name="code" :value="tshirtSize" />
       </form>
     </div>
   </div>
@@ -125,17 +141,17 @@ export default {
   data() {
     return {
       currentticket: 0,
-      tshirtSize: "6C0760762727348CC4D39F8A7A077AB6"
+      tshirtSize: "6C0760762727348CC4D39F8A7A077AB6",
     };
   },
   computed: {
-    ...mapState(["tickets"])
+    ...mapState(["tickets"]),
   },
   methods: {
     tshirtSelectionValidation() {
       PagSeguroLightbox(document.querySelector("#form-camiseta"));
-    }
-  }
+    },
+  },
 };
 </script>
 

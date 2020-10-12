@@ -6,7 +6,7 @@
 
           <div class="menu--content--logo flex-grow-1">
             <router-link to="#home">
-              <img src="~/assets/images/logo-full.svg" width="100%" alt="Logo DevParaná 2019">
+              <img src="~/assets/images/logo-full.svg" width="100%" alt="Logo DevParaná 2020">
             </router-link>
           </div>
 
@@ -56,7 +56,7 @@
 export default {
   data() {
     return {
-      showMenu: false
+      showMenu: false,
     };
   },
   mounted() {
@@ -65,7 +65,7 @@ export default {
     let vm = this;
     var links = this.$el.querySelectorAll(".menu--content--links nav ul li a");
 
-    window.addEventListener("scroll", function() {
+    window.addEventListener("scroll", function () {
       var scrollpos = window.scrollY;
       var menuClass = document.querySelector(".menu");
 
@@ -79,13 +79,13 @@ export default {
 
     function closeMenu() {
       vm.showMenu = false;
-      links.forEach(function(link) {
+      links.forEach(function (link) {
         link.classList.remove("active");
       });
     }
 
-    links.forEach(function(link) {
-      link.addEventListener("click", function() {
+    links.forEach(function (link) {
+      link.addEventListener("click", function () {
         closeMenu();
         link.classList.add("active");
       });
@@ -96,7 +96,7 @@ export default {
     //   threshold: -700,
     //   hashTimeout: 2000
     // })
-  }
+  },
 };
 </script>
 
@@ -143,7 +143,7 @@ $size-menu: 60px;
     left: 0;
     animation: showMenu 0.5s backwards;
     z-index: 11;
-    background: $color-4;
+    background: rgba(0, 0, 0, 0.75);
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.2);
 
     .menu--content {

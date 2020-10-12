@@ -6,14 +6,14 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'DevParaná Conference 2019',
+    title: 'DevParaná Conference 2020',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: 'Dev Paraná Conference 2019'
+        content: 'DevParaná Conference 2020'
       }
     ],
     link: [

@@ -38,7 +38,6 @@
 import menuFixed from "@/components/menu";
 
 export default {
-  data: function () {},
   components: {
     menuFixed,
   },

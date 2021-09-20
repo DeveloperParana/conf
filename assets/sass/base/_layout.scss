@@ -1,9 +1,6 @@
 html {
   color: $color-white;
-  background: url("~/assets/images/background.png"), $color-black;
-  background-position: center;
-  background-size: 100%;
-  background-attachment: fixed;
+  background-color: $color-2021;
 }
 
 .content {
